@@ -1,0 +1,13 @@
+CREATE TABLE `bank` ( `name` INT NULL,
+  `Account` INT NULL,
+  `Rnum` INT NULL,
+  `Phone` INT NULL,
+  `address` VARCHAR(45) NULL,
+  `password` VARCHAR(5) NULL);
+
+
+
+
+CREATE TABLE `bank_account` ( `Account` INT NULL,
+  `password` VARCHAR(5) NULL,
+  `price` INT NULL);
